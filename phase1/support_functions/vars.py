@@ -1,7 +1,7 @@
 # set local root
 local_root = {
-    "data": "/home/babs/Documents/DIFACQUIM/PPIClassifier/data",
-    "phase1": "/home/babs/Documents/DIFACQUIM/PPIClassifier/phase1",
+    "data": "/home/babs/Documents/DIFACQUIM/PPI_ML/data",
+    "phase1": "/home/babs/Documents/DIFACQUIM/PPI_ML/phase1",
 }
 
 fp_list = ["ECFP4", "ECFP6", "MACCSKEYS", "AtomPairs"]
