@@ -1,0 +1,866 @@
+{
+    "RF1": {
+        "model_name": "RFF1L6P3EN1A",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF2": {
+        "model_name": "RFF1L6P3EN1B",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF3": {
+        "model_name": "RFF1L6P3EN2A",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF4": {
+        "model_name": "RFF1L6P3EN2B",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF5": {
+        "model_name": "RFF1L6P3EN3A",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF6": {
+        "model_name": "RFF1L6P3EN3B",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF7": {
+        "model_name": "RFF1L6P3GN1A",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF8": {
+        "model_name": "RFF1L6P3GN1B",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF9": {
+        "model_name": "RFF1L6P3GN2A",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF10": {
+        "model_name": "RFF1L6P3GN2B",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF11": {
+        "model_name": "RFF1L6P3GN3A",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF12": {
+        "model_name": "RFF1L6P3GN3B",
+        "descriptors": "ECFP4",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF13": {
+        "model_name": "RFF1L6P5EN1A",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF14": {
+        "model_name": "RFF1L6P5EN1B",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF15": {
+        "model_name": "RFF1L6P5EN2A",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF16": {
+        "model_name": "RFF1L6P5EN2B",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF17": {
+        "model_name": "RFF1L6P5EN3A",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF18": {
+        "model_name": "RFF1L6P5EN3B",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF19": {
+        "model_name": "RFF1L6P5GN1A",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF20": {
+        "model_name": "RFF1L6P5GN1B",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF21": {
+        "model_name": "RFF1L6P5GN2A",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF22": {
+        "model_name": "RFF1L6P5GN2B",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF23": {
+        "model_name": "RFF1L6P5GN3A",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF24": {
+        "model_name": "RFF1L6P5GN3B",
+        "descriptors": "ECFP4",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF25": {
+        "model_name": "RFF2L6P3EN1A",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF26": {
+        "model_name": "RFF2L6P3EN1B",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF27": {
+        "model_name": "RFF2L6P3EN2A",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF28": {
+        "model_name": "RFF2L6P3EN2B",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF29": {
+        "model_name": "RFF2L6P3EN3A",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF30": {
+        "model_name": "RFF2L6P3EN3B",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF31": {
+        "model_name": "RFF2L6P3GN1A",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF32": {
+        "model_name": "RFF2L6P3GN1B",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF33": {
+        "model_name": "RFF2L6P3GN2A",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF34": {
+        "model_name": "RFF2L6P3GN2B",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF35": {
+        "model_name": "RFF2L6P3GN3A",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF36": {
+        "model_name": "RFF2L6P3GN3B",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF37": {
+        "model_name": "RFF2L6P5EN1A",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF38": {
+        "model_name": "RFF2L6P5EN1B",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF39": {
+        "model_name": "RFF2L6P5EN2A",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF40": {
+        "model_name": "RFF2L6P5EN2B",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF41": {
+        "model_name": "RFF2L6P5EN3A",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF42": {
+        "model_name": "RFF2L6P5EN3B",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF43": {
+        "model_name": "RFF2L6P5GN1A",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF44": {
+        "model_name": "RFF2L6P5GN1B",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF45": {
+        "model_name": "RFF2L6P5GN2A",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF46": {
+        "model_name": "RFF2L6P5GN2B",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF47": {
+        "model_name": "RFF2L6P5GN3A",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF48": {
+        "model_name": "RFF2L6P5GN3B",
+        "descriptors": "ECFP6",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF49": {
+        "model_name": "RFF3L6P3EN1A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF50": {
+        "model_name": "RFF3L6P3EN1B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF51": {
+        "model_name": "RFF3L6P3EN2A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF52": {
+        "model_name": "RFF3L6P3EN2B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF53": {
+        "model_name": "RFF3L6P3EN3A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF54": {
+        "model_name": "RFF3L6P3EN3B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF55": {
+        "model_name": "RFF3L6P3GN1A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF56": {
+        "model_name": "RFF3L6P3GN1B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF57": {
+        "model_name": "RFF3L6P3GN2A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF58": {
+        "model_name": "RFF3L6P3GN2B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF59": {
+        "model_name": "RFF3L6P3GN3A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF60": {
+        "model_name": "RFF3L6P3GN3B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF61": {
+        "model_name": "RFF3L6P5EN1A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF62": {
+        "model_name": "RFF3L6P5EN1B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF63": {
+        "model_name": "RFF3L6P5EN2A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF64": {
+        "model_name": "RFF3L6P5EN2B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF65": {
+        "model_name": "RFF3L6P5EN3A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF66": {
+        "model_name": "RFF3L6P5EN3B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF67": {
+        "model_name": "RFF3L6P5GN1A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF68": {
+        "model_name": "RFF3L6P5GN1B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF69": {
+        "model_name": "RFF3L6P5GN2A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF70": {
+        "model_name": "RFF3L6P5GN2B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF71": {
+        "model_name": "RFF3L6P5GN3A",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF72": {
+        "model_name": "RFF3L6P5GN3B",
+        "descriptors": "MACCSKEYS",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF73": {
+        "model_name": "RFF4L6P3EN1A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF74": {
+        "model_name": "RFF4L6P3EN1B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF75": {
+        "model_name": "RFF4L6P3EN2A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF76": {
+        "model_name": "RFF4L6P3EN2B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF77": {
+        "model_name": "RFF4L6P3EN3A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF78": {
+        "model_name": "RFF4L6P3EN3B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF79": {
+        "model_name": "RFF4L6P3GN1A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF80": {
+        "model_name": "RFF4L6P3GN1B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF81": {
+        "model_name": "RFF4L6P3GN2A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF82": {
+        "model_name": "RFF4L6P3GN2B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF83": {
+        "model_name": "RFF4L6P3GN3A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF84": {
+        "model_name": "RFF4L6P3GN3B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.2,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF85": {
+        "model_name": "RFF4L6P5EN1A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF86": {
+        "model_name": "RFF4L6P5EN1B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF87": {
+        "model_name": "RFF4L6P5EN2A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF88": {
+        "model_name": "RFF4L6P5EN2B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF89": {
+        "model_name": "RFF4L6P5EN3A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF90": {
+        "model_name": "RFF4L6P5EN3B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "entropy",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF91": {
+        "model_name": "RFF4L6P5GN1A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF92": {
+        "model_name": "RFF4L6P5GN1B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "100",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF93": {
+        "model_name": "RFF4L6P5GN2A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF94": {
+        "model_name": "RFF4L6P5GN2B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "500",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "RF95": {
+        "model_name": "RFF4L6P5GN3A",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "RF96": {
+        "model_name": "RFF4L6P5GN3B",
+        "descriptors": "AtomPairs",
+        "proportion": 0.3,
+        "estimators": "1000",
+        "criterion": "gini",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    }
+}
