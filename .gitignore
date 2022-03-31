@@ -110,12 +110,8 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
+# pycharm
+**/.idea/
 
 # mkdocs documentation
 /site
@@ -127,3 +123,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# trained models, size files
+/phase1/results/trained_results/trained_models

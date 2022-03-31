@@ -1,0 +1,514 @@
+{
+    "SVM1": {
+        "model_name": "SVMF1L6P3K1A",
+        "descriptor": "ECFP4",
+        "proportion": 0.2,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM2": {
+        "model_name": "SVMF1L6P3K1B",
+        "descriptor": "ECFP4",
+        "proportion": 0.2,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM3": {
+        "model_name": "SVMF1L6P3K2A",
+        "descriptor": "ECFP4",
+        "proportion": 0.2,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM4": {
+        "model_name": "SVMF1L6P3K2B",
+        "descriptor": "ECFP4",
+        "proportion": 0.2,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM5": {
+        "model_name": "SVMF1L6P3K3A",
+        "descriptor": "ECFP4",
+        "proportion": 0.2,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM6": {
+        "model_name": "SVMF1L6P3K3B",
+        "descriptor": "ECFP4",
+        "proportion": 0.2,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM7": {
+        "model_name": "SVMF1L6P3K4A",
+        "descriptor": "ECFP4",
+        "proportion": 0.2,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM8": {
+        "model_name": "SVMF1L6P3K4B",
+        "descriptor": "ECFP4",
+        "proportion": 0.2,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM9": {
+        "model_name": "SVMF1L6P5K1A",
+        "descriptor": "ECFP4",
+        "proportion": 0.3,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM10": {
+        "model_name": "SVMF1L6P5K1B",
+        "descriptor": "ECFP4",
+        "proportion": 0.3,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM11": {
+        "model_name": "SVMF1L6P5K2A",
+        "descriptor": "ECFP4",
+        "proportion": 0.3,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM12": {
+        "model_name": "SVMF1L6P5K2B",
+        "descriptor": "ECFP4",
+        "proportion": 0.3,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM13": {
+        "model_name": "SVMF1L6P5K3A",
+        "descriptor": "ECFP4",
+        "proportion": 0.3,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM14": {
+        "model_name": "SVMF1L6P5K3B",
+        "descriptor": "ECFP4",
+        "proportion": 0.3,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM15": {
+        "model_name": "SVMF1L6P5K4A",
+        "descriptor": "ECFP4",
+        "proportion": 0.3,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM16": {
+        "model_name": "SVMF1L6P5K4B",
+        "descriptor": "ECFP4",
+        "proportion": 0.3,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM17": {
+        "model_name": "SVMF2L6P3K1A",
+        "descriptor": "ECFP6",
+        "proportion": 0.2,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM18": {
+        "model_name": "SVMF2L6P3K1B",
+        "descriptor": "ECFP6",
+        "proportion": 0.2,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM19": {
+        "model_name": "SVMF2L6P3K2A",
+        "descriptor": "ECFP6",
+        "proportion": 0.2,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM20": {
+        "model_name": "SVMF2L6P3K2B",
+        "descriptor": "ECFP6",
+        "proportion": 0.2,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM21": {
+        "model_name": "SVMF2L6P3K3A",
+        "descriptor": "ECFP6",
+        "proportion": 0.2,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM22": {
+        "model_name": "SVMF2L6P3K3B",
+        "descriptor": "ECFP6",
+        "proportion": 0.2,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM23": {
+        "model_name": "SVMF2L6P3K4A",
+        "descriptor": "ECFP6",
+        "proportion": 0.2,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM24": {
+        "model_name": "SVMF2L6P3K4B",
+        "descriptor": "ECFP6",
+        "proportion": 0.2,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM25": {
+        "model_name": "SVMF2L6P5K1A",
+        "descriptor": "ECFP6",
+        "proportion": 0.3,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM26": {
+        "model_name": "SVMF2L6P5K1B",
+        "descriptor": "ECFP6",
+        "proportion": 0.3,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM27": {
+        "model_name": "SVMF2L6P5K2A",
+        "descriptor": "ECFP6",
+        "proportion": 0.3,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM28": {
+        "model_name": "SVMF2L6P5K2B",
+        "descriptor": "ECFP6",
+        "proportion": 0.3,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM29": {
+        "model_name": "SVMF2L6P5K3A",
+        "descriptor": "ECFP6",
+        "proportion": 0.3,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM30": {
+        "model_name": "SVMF2L6P5K3B",
+        "descriptor": "ECFP6",
+        "proportion": 0.3,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM31": {
+        "model_name": "SVMF2L6P5K4A",
+        "descriptor": "ECFP6",
+        "proportion": 0.3,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM32": {
+        "model_name": "SVMF2L6P5K4B",
+        "descriptor": "ECFP6",
+        "proportion": 0.3,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM33": {
+        "model_name": "SVMF3L6P3K1A",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.2,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM34": {
+        "model_name": "SVMF3L6P3K1B",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.2,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM35": {
+        "model_name": "SVMF3L6P3K2A",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.2,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM36": {
+        "model_name": "SVMF3L6P3K2B",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.2,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM37": {
+        "model_name": "SVMF3L6P3K3A",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.2,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM38": {
+        "model_name": "SVMF3L6P3K3B",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.2,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM39": {
+        "model_name": "SVMF3L6P3K4A",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.2,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM40": {
+        "model_name": "SVMF3L6P3K4B",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.2,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM41": {
+        "model_name": "SVMF3L6P5K1A",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.3,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM42": {
+        "model_name": "SVMF3L6P5K1B",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.3,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM43": {
+        "model_name": "SVMF3L6P5K2A",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.3,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM44": {
+        "model_name": "SVMF3L6P5K2B",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.3,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM45": {
+        "model_name": "SVMF3L6P5K3A",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.3,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM46": {
+        "model_name": "SVMF3L6P5K3B",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.3,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM47": {
+        "model_name": "SVMF3L6P5K4A",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.3,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM48": {
+        "model_name": "SVMF3L6P5K4B",
+        "descriptor": "MACCSKEYS",
+        "proportion": 0.3,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM49": {
+        "model_name": "SVMF4L6P3K1A",
+        "descriptor": "AtomPairs",
+        "proportion": 0.2,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM50": {
+        "model_name": "SVMF4L6P3K1B",
+        "descriptor": "AtomPairs",
+        "proportion": 0.2,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM51": {
+        "model_name": "SVMF4L6P3K2A",
+        "descriptor": "AtomPairs",
+        "proportion": 0.2,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM52": {
+        "model_name": "SVMF4L6P3K2B",
+        "descriptor": "AtomPairs",
+        "proportion": 0.2,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM53": {
+        "model_name": "SVMF4L6P3K3A",
+        "descriptor": "AtomPairs",
+        "proportion": 0.2,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM54": {
+        "model_name": "SVMF4L6P3K3B",
+        "descriptor": "AtomPairs",
+        "proportion": 0.2,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM55": {
+        "model_name": "SVMF4L6P3K4A",
+        "descriptor": "AtomPairs",
+        "proportion": 0.2,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM56": {
+        "model_name": "SVMF4L6P3K4B",
+        "descriptor": "AtomPairs",
+        "proportion": 0.2,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM57": {
+        "model_name": "SVMF4L6P5K1A",
+        "descriptor": "AtomPairs",
+        "proportion": 0.3,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM58": {
+        "model_name": "SVMF4L6P5K1B",
+        "descriptor": "AtomPairs",
+        "proportion": 0.3,
+        "kernel": "linear",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM59": {
+        "model_name": "SVMF4L6P5K2A",
+        "descriptor": "AtomPairs",
+        "proportion": 0.3,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM60": {
+        "model_name": "SVMF4L6P5K2B",
+        "descriptor": "AtomPairs",
+        "proportion": 0.3,
+        "kernel": "poly",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM61": {
+        "model_name": "SVMF4L6P5K3A",
+        "descriptor": "AtomPairs",
+        "proportion": 0.3,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM62": {
+        "model_name": "SVMF4L6P5K3B",
+        "descriptor": "AtomPairs",
+        "proportion": 0.3,
+        "kernel": "rbf",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    },
+    "SVM63": {
+        "model_name": "SVMF4L6P5K4A",
+        "descriptor": "AtomPairs",
+        "proportion": 0.3,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "balanced"
+    },
+    "SVM64": {
+        "model_name": "SVMF4L6P5K4B",
+        "descriptor": "AtomPairs",
+        "proportion": 0.3,
+        "kernel": "sigmoid",
+        "libraries": "PPI and FDA",
+        "class weight": "None"
+    }
+}
