@@ -1,0 +1,15 @@
+{
+      "venetoclax" : "CC1(C)CCC(CN2CCN(CC2)C2=CC=C(C(=O)NS(=O)(=O)C3=CC=C(NCC4CCOCC4)C(=C3)[N+]([O-])=O)C(OC3=CN=C4NC=CC4=C3)=C2)=C(C1)C1=CC=C(Cl)C=C1",
+      "JQ1" : "CC1=C(SC2=C1C(=NC(C3=NN=C(N32)C)CC(=O)O)C4=CC=C(C=C4)Cl)C",
+      "compound3":"Cn1ncc2c1nc(-c1ccccc1)c1c2[nH]n(-c2ccc(Cl)cc2)c1=O",
+      "compound30": "CC(=O)OCc1cc(Nc2ccc(NCCc3c[nH]c4ccccc34)cc2)ccn1",
+      "apabetalon" : "COC1=CC2=C(C(=O)N=C(N2)C2=CC(C)=C(OCCO)C(C)=C2)C(OC)=C1",
+      "idasanutline" : "COC1=CC(=CC=C1NC(=O)[C@@H]1N[C@@H](CC(C)(C)C)[C@@](C#N)([C@H]1C1=CC=CC(Cl)=C1F)C1=CC=C(Cl)C=C1F)C(O)=O",
+      "atorvastatin": "CC(C)C1=C(C(=O)NC2=CC=CC=C2)C(=C(N1CC[C@@H](O)C[C@@H](O)CC(O)=O)C1=CC=C(F)C=C1)C1=CC=CC=C1",
+      "amoxicilin": "[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)[C@H](N)C1=CC=C(O)C=C1)C(O)=O",
+      "lisinopril": "NCCCC[C@H](N[C@@H](CCC1=CC=CC=C1)C(O)=O)C(=O)N1CCC[C@H]1C(O)=O",
+      "albuterol": "CC(C)(C)NCC(O)C1=CC(CO)=C(O)C=C1",
+      "metformin": "CN(C)C(=N)NC(N)=N",
+      "omeprazol": "COC1=CC2=C(C=C1)N=C(N2)S(=O)CC1=NC=C(C)C(OC)=C1C",
+      "losartan": "COC1=CC2=C(C=C1)N=C(N2)S(=O)CC1=NC=C(C)C(OC)=C1C"
+}
