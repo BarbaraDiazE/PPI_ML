@@ -50,7 +50,7 @@ class Validation:
 if __name__ == "__main__":
     from phase1.support_functions.vars import local_root
 
-    models_to_validate = [("ECFP6", "ensemble_ecfp6.pkl")]
+    models_to_validate = [("ECFP6", "ensemble_ecfp6_1.pkl"), ("ECFP6", "ensemble_ecfp6_2.pkl")]
     for i in range(len(models_to_validate)):
         input_filename = f"dataset_{models_to_validate[i][0]}.csv"
         model_name = models_to_validate[i][1]

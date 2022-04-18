@@ -55,34 +55,43 @@ class Ensemble:
 
         models = [
             (
-                "rf27",
+                "rf4",
                 RandomForestClassifier(
                     n_estimators=500,
                     criterion="entropy",
+                    class_weight=None,
+                    random_state=1992,
+                ),
+            ),
+            (
+                "rf9",
+                RandomForestClassifier(
+                    n_estimators=500,
+                    criterion="gini",
                     class_weight="balanced",
                     random_state=1992,
                 ),
             ),
             (
-                "lr22",
+                "lr1",
                 LogisticRegression(
                     solver="newton-cg", fit_intercept=True, class_weight=None, random_state=1992
                 ),
             ),
             (
-                "lr24",
+                "lr4",
                 LogisticRegression(
                     solver="lbfgs", fit_intercept=True, class_weight=None, random_state=1992
                 ),
             ),
             (
-                "lr27",
+                "lr9",
                 LogisticRegression(
                     solver="saga", fit_intercept=True, class_weight=None, random_state=1992
                 ),
             ),
             (
-                "svm22",
+                "svm6",
                 SVC(
                     kernel="rbf",
                     class_weight=None,
@@ -90,10 +99,18 @@ class Ensemble:
                     probability=True,
                 ),
             ),
+            (
+                "svm7",
+                SVC(
+                    kernel="sigmoid",
+                    class_weight=None,
+                    random_state=1992,
+                    probability=True,
+                ),
+            ),
         ]
-        ensemble = VotingClassifier(estimators=models, voting="soft")
+        ensemble = VotingClassifier(estimators=models, voting="hard")
         y = np.array(self.data[self.target])
-        print(y)
         y = label_binarize(y, classes=["No", "Yes"])
         y = np.reshape(y, int(y.shape[0]))
         numerical_data = np.array(self.data[self.descriptors])
@@ -106,6 +123,7 @@ class Ensemble:
     def get_predictions(cls, model, x_test, y_test):
         prediction_data = {
             "predictions": model.predict(x_test),
+            # "y_score": model.decision_function(x_test),
             "x_text": x_test,
             "y_test": y_test,
         }
@@ -113,6 +131,7 @@ class Ensemble:
 
     def report(self, output_reference: str):
         ensemble, x_test, y_test = self.train_model()
+        print("report method")
         prediction_data = self.get_predictions(ensemble, x_test, y_test)
         ensemble_report(
             output_reference=output_reference,
@@ -129,7 +148,7 @@ if __name__ == "__main__":
     from phase1.support_functions.support_descriptors import get_numerical_descriptors
     from phase1.support_functions.vars import local_root
 
-    input_filename = "dataset_ecfp6.csv"
+    input_filename = "dataset_ecfp4.csv"
     descriptor_list = get_numerical_descriptors(input_filename)
     E = Ensemble(
         data_root=local_root["data"],
@@ -139,4 +158,5 @@ if __name__ == "__main__":
         descriptors=descriptor_list,
         fraction=0.2,
     )
-    E.report(output_reference="ensemble_ecfp6")
+    E.report(output_reference="ensemble1")
+    # E.report(output_reference="ensemble_LRG")

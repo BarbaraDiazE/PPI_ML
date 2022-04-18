@@ -73,7 +73,8 @@ model_filenames = [
     ("LRG24", "LRGF2L6P3S2B.pkl"),
     ("LRG27", "LRGF2L6P3S4A.pkl"),
     ("SVM22", "SVMF2L6P3K3B.pkl"),
-    ("ensemble1", "ensemble_ecfp6.pkl"),
+    ("Ensemble1", "ensemble_ecfp6_1.pkl"),
+    ("Ensemble2", "ensemble_ecfp6_2.pkl"),
 ]
 
 
