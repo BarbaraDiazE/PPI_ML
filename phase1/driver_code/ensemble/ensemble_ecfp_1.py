@@ -66,19 +66,28 @@ class Ensemble:
             (
                 "lr22",
                 LogisticRegression(
-                    solver="newton-cg", fit_intercept=True, class_weight=None, random_state=1992
+                    solver="newton-cg",
+                    fit_intercept=True,
+                    class_weight=None,
+                    random_state=1992,
                 ),
             ),
             (
                 "lr24",
                 LogisticRegression(
-                    solver="lbfgs", fit_intercept=True, class_weight=None, random_state=1992
+                    solver="lbfgs",
+                    fit_intercept=True,
+                    class_weight=None,
+                    random_state=1992,
                 ),
             ),
             (
                 "lr27",
                 LogisticRegression(
-                    solver="saga", fit_intercept=True, class_weight=None, random_state=1992
+                    solver="saga",
+                    fit_intercept=True,
+                    class_weight=None,
+                    random_state=1992,
                 ),
             ),
             (

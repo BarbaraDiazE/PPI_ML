@@ -6,7 +6,11 @@ from sklearn.preprocessing import label_binarize
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 
-from phase1.support_functions.svm.functions_SVM_FP import svm_report, plot_roc, save_model
+from phase1.support_functions.svm.functions_SVM_FP import (
+    svm_report,
+    plot_roc,
+    save_model,
+)
 
 
 class SvmFp:

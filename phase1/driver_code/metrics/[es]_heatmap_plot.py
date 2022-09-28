@@ -45,7 +45,13 @@ class PlotHeatmap:
         numerical_id, pk_models, files_list = self.get_reports_filenames(filtered_models)
         values_list = [self.get_report_value(i) for i in files_list]
         data = np.array(values_list)
-        columns_ = ["Exactitud", "Exactitud \n balanceada", "Precisión", "F1", "Recobro"]
+        columns_ = [
+            "Exactitud",
+            "Exactitud \n balanceada",
+            "Precisión",
+            "F1",
+            "Recobro",
+        ]
         print(columns_)
         df = pd.DataFrame(data=data, columns=columns_, index=numerical_id)
         print(df)

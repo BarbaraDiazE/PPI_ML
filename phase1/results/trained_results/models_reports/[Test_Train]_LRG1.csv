@@ -1,0 +1,15 @@
+,value
+[Train] Accuracy,0.98
+[Train] Balanced Accuracy,0.98
+[Train] Precision,0.98
+[Train] F1,0.98
+[Train] Confusion matrix,"[[1869   41]
+ [  30 1764]]"
+[Train] Recall,0.98
+[Test] Accuracy,0.92
+[Test] Balanced Accuracy,0.92
+[Test] Precision,0.92
+[Test] F1,0.92
+[Test] Confusion matrix,"[[460  33]
+ [ 38 395]]"
+[Test] Recall,0.91

@@ -33,7 +33,9 @@ class SummaryValidation:
         accuracy_std_values = list()
         for filename in filenames:
             df = pd.read_csv(
-                os.path.join(self.validation_data_root, filename), sep=",", index_col="Unnamed: 0"
+                os.path.join(self.validation_data_root, filename),
+                sep=",",
+                index_col="Unnamed: 0",
             )
             accuracy_mean_values.append(df.loc["accuracy mean"][0])
             accuracy_std_values.append(df.loc["accuracy std"][0])

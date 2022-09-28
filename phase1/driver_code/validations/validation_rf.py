@@ -59,6 +59,9 @@ if __name__ == "__main__":
         input_filename = f"dataset_{models_to_validate[i][0]}.csv"
         model_name = models_to_validate[i][1]
         A = Validation(
-            root_data=local_root["data"], data_filename=input_filename, target="PPI", fraction=0.2
+            root_data=local_root["data"],
+            data_filename=input_filename,
+            target="PPI",
+            fraction=0.2,
         )
         A.evaluate_model(root=local_root["phase1"], model_filename=model_name, cv=20)

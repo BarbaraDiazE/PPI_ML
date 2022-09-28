@@ -83,6 +83,36 @@ def lrg_report(
     print(f"report {output_reference} is ready")
 
 
+def lrg_report_train_metrics(
+    output_reference: str,
+    y_train: np.array,
+    y_test: np.array,
+    train_predictions: np.array,
+    test_predictions: np.array,
+    local_root: str,
+):
+    report_data = {
+        "[Train] Accuracy": round(accuracy_score(y_train, train_predictions), 2),
+        "[Train] Balanced Accuracy": round(balanced_accuracy_score(y_train, train_predictions), 2),
+        "[Train] Precision": round(precision_score(y_train, train_predictions), 2),
+        "[Train] F1": round(f1_score(y_train, train_predictions), 2),
+        "[Train] Confusion matrix": confusion_matrix(y_train, train_predictions),
+        "[Train] Recall": round(recall_score(y_train, train_predictions), 2),
+        "[Test] Accuracy": round(accuracy_score(y_test, test_predictions), 2),
+        "[Test] Balanced Accuracy": round(balanced_accuracy_score(y_test, test_predictions), 2),
+        "[Test] Precision": round(precision_score(y_test, test_predictions), 2),
+        "[Test] F1": round(f1_score(y_test, test_predictions), 2),
+        "[Test] Confusion matrix": confusion_matrix(y_test, test_predictions),
+        "[Test] Recall": round(recall_score(y_test, test_predictions), 2),
+    }
+    report = pd.DataFrame.from_dict(report_data, orient="index", columns=["value"])
+    output_report_name = f"[Test_Train]_{output_reference}.csv"
+    output_root = f"{local_root}/results/trained_results/models_reports"
+    report.to_csv(os.path.join(output_root, output_report_name), sep=",")
+    print(f"report {output_reference} is ready")
+    return report
+
+
 def save_model(
     model,
     output_reference: str,
