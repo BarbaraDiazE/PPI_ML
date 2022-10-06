@@ -7,6 +7,17 @@ def get_data(filename):
     return data
 
 
+def get_coefficients(filename):
+    r = "/home/babs/Documents/DIFACQUIM/PPI_ML/phase1/results/trained_results/models_reports/coeff_reports/"
+    data = pd.read_csv(f"{r}{filename}")
+    return data
+
+
+def common_bits(a: list, b: list):
+    result = [i for i in a if i in b]
+    return result
+
+
 def get_random_smiles(data, index):
     # get smiles bi index
     molecule = data.iloc[index]
